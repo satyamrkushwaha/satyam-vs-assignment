@@ -1,0 +1,185 @@
+{
+    "companies": [
+      {
+        "id": 1,
+        "name": "Reliance Industries",
+        "path": "reliance-industries",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Reliance_Industries_Logo.svg/1920px-Reliance_Industries_Logo.svg.png",
+        "issue_date": "4th - 8th Oct 2024",
+        "issue_size": "₹3000 crores",
+        "price_range": "₹50 - ₹60",
+        "min_invest_rupees": "₹50000",
+        "min_invest_quantity": "100 shares/5 lots",
+        "details": {
+          "issue_range": "₹30000 - ₹5000",
+          "listed_on": "15th Dec 2022",
+          "listed_price": "₹10",
+          "listed_gains": "₹10",
+          "listed_gains_percentage": "10%"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Tata Consultancy Services (TCS)",
+        "path": "tata-consultancy-services-tcs",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Tata_Consultancy_Services_Logo.svg/1200px-Tata_Consultancy_Services_Logo.svg.png",
+        "issue_date": "4th - 8th Oct 2024",
+        "issue_size": "₹2500 crores",
+        "price_range": "₹100 - ₹120",
+        "min_invest_rupees": "₹60000",
+        "min_invest_quantity": "50 shares/2 lots",
+        "details": {
+          "issue_range": "₹20000 - ₹4000",
+          "listed_on": "20th Dec 2022",
+          "listed_price": "₹15",
+          "listed_gains": "₹20",
+          "listed_gains_percentage": "25%"
+        }
+      },
+      {
+        "id": 3,
+        "name": "HDFC Bank",
+        "path": "hdfc-bank",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/HDFC_Bank_Logo.svg/1920px-HDFC_Bank_Logo.svg.png",
+        "issue_date": "5th - 10th Nov 2024",
+        "issue_size": "₹1500 crores",
+        "price_range": "₹40 - ₹50",
+        "min_invest_rupees": "₹45000",
+        "min_invest_quantity": "75 shares/3 lots",
+        "details": {
+          "issue_range": "₹15000 - ₹3500",
+          "listed_on": "10th Jan 2023",
+          "listed_price": "₹12",
+          "listed_gains": "₹8",
+          "listed_gains_percentage": "15%"
+        }
+      },
+      {
+        "id": 4,
+        "name": "ICICI Bank",
+        "path": "icici-bank",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/ICICI_Bank_Logo.svg/1280px-ICICI_Bank_Logo.svg.png",
+        "issue_date": "6th - 12th Dec 2024",
+        "issue_size": "₹1800 crores",
+        "price_range": "₹70 - ₹80",
+        "min_invest_rupees": "₹55000",
+        "min_invest_quantity": "60 shares/4 lots",
+        "details": {
+          "issue_range": "₹17000 - ₹3800",
+          "listed_on": "18th Jan 2023",
+          "listed_price": "₹13",
+          "listed_gains": "₹7",
+          "listed_gains_percentage": "14%"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Infosys",
+        "path": "infosys",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Infosys_logo.svg/2560px-Infosys_logo.svg.png",
+        "issue_date": "1st - 5th Jan 2025",
+        "issue_size": "₹2000 crores",
+        "price_range": "₹90 - ₹100",
+        "min_invest_rupees": "₹70000",
+        "min_invest_quantity": "30 shares/1 lot",
+        "details": {
+          "issue_range": "₹22000 - ₹4500",
+          "listed_on": "25th Jan 2023",
+          "listed_price": "₹18",
+          "listed_gains": "₹22",
+          "listed_gains_percentage": "20%"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Bharti Airtel",
+        "path": "bharti-airtel",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bharti_Airtel_logo.svg/1024px-Bharti_Airtel_logo.svg.png",
+        "issue_date": "7th - 11th Feb 2025",
+        "issue_size": "₹1700 crores",
+        "price_range": "₹60 - ₹70",
+        "min_invest_rupees": "₹65000",
+        "min_invest_quantity": "40 shares/2 lots",
+        "details": {
+          "issue_range": "₹16000 - ₹3400",
+          "listed_on": "5th Feb 2023",
+          "listed_price": "₹14",
+          "listed_gains": "₹16",
+          "listed_gains_percentage": "18%"
+        }
+      },
+      {
+        "id": 7,
+        "name": "State Bank of India (SBI)",
+        "path": "state-bank-of-india-sbi",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/State_Bank_of_India_logo.svg/1024px-State_Bank_of_India_logo.svg.png",
+        "issue_date": "10th - 15th Mar 2025",
+        "issue_size": "₹3000 crores",
+        "price_range": "₹80 - ₹90",
+        "min_invest_rupees": "₹75000",
+        "min_invest_quantity": "35 shares/1 lot",
+        "details": {
+          "issue_range": "₹35000 - ₹6000",
+          "listed_on": "10th Mar 2023",
+          "listed_price": "₹20",
+          "listed_gains": "₹30",
+          "listed_gains_percentage": "25%"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Life Insurance Corporation (LIC)",
+        "path": "life-insurance-corporation-lic",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Life_Insurance_Corporation_of_India_logo.svg/1200px-Life_Insurance_Corporation_of_India_logo.svg.png",
+        "issue_date": "5th - 10th Apr 2025",
+        "issue_size": "₹2800 crores",
+        "price_range": "₹100 - ₹120",
+        "min_invest_rupees": "₹80000",
+        "min_invest_quantity": "25 shares/1 lot",
+        "details": {
+          "issue_range": "₹28000 - ₹5500",
+          "listed_on": "15th Apr 2023",
+          "listed_price": "₹25",
+          "listed_gains": "₹35",
+          "listed_gains_percentage": "30%"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Hindustan Unilever",
+        "path": "hindustan-unilever",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Hindustan_Unilever_Logo.svg/1024px-Hindustan_Unilever_Logo.svg.png",
+        "issue_date": "1st - 5th May 2025",
+        "issue_size": "₹2200 crores",
+        "price_range": "₹110 - ₹130",
+        "min_invest_rupees": "₹90000",
+        "min_invest_quantity": "20 shares/1 lot",
+        "details": {
+          "issue_range": "₹24000 - ₹4600",
+          "listed_on": "20th May 2023",
+          "listed_price": "₹28",
+          "listed_gains": "₹32",
+          "listed_gains_percentage": "22%"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Bajaj Finance",
+        "path": "bajaj-finance",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bajaj_Finserv_logo.svg/1024px-Bajaj_Finserv_logo.svg.png",
+        "issue_date": "8th - 12th Jun 2025",
+        "issue_size": "₹2500 crores",
+        "price_range": "₹120 - ₹140",
+        "min_invest_rupees": "₹85000",
+        "min_invest_quantity": "30 shares/1 lot",
+        "details": {
+          "issue_range": "₹26000 - ₹4800",
+          "listed_on": "25th Jun 2023",
+          "listed_price": "₹30",
+          "listed_gains": "₹40",
+          "listed_gains_percentage": "27%"
+        }
+      }
+    ]
+  }
+  

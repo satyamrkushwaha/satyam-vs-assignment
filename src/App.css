@@ -1,0 +1,43 @@
+/* IpoDetails.css */
+
+.ipo-details {
+  padding: 20px;
+}
+
+.navigation {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.navigation .nav-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.navigation .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navigation .current-page {
+  font-weight: bold;
+}
+
+.company-details {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo img {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  margin-right: 20px;
+}
+
+.company-info {
+  flex: 1;
+}
+
+.company-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
