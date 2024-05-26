@@ -1,4 +1,6 @@
-.ipo-list-container {}
+.ipo-list-container {
+    padding: 0 40px 40px;
+}
 
 table {
     border-collapse: collapse;
@@ -8,10 +10,11 @@ table {
 
 }
 tr{
-    border-bottom: 1px solid rgb(245, 245, 245);
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-top: none;
 }
 tr:hover{
-    background-color: rgb(245, 245, 245, 0.5);
+    background-color: rgbrgb(0, 0, 0, 0.1);
 }
 
 th, td{

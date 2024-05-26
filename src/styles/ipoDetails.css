@@ -1,3 +1,267 @@
 .ipo-details-container{
-    
+    padding: 40px;
+}
+
+.ipo-heading-details{
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.ipo-details{
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.flex-pad{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.flex-1 h5{
+    color: rgb(133,130,141);
+    margin: 0;
+}
+
+.flex-1 div{
+    font-weight: 600;
+}
+
+.flex-1 span{
+    color: rgb(255, 0, 0);
+    margin-top: 5px;
+}
+
+.ipo-heading-timeline{
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    height: 200px;
+}
+.base-timeline {
+    list-style-type: none;
+    counter-reset: number;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+  }
+  
+  .base-timeline::before {
+    content: '';
+    width: 100%;
+    border-top: 2px solid rgb(79, 175, 84);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+  }
+  
+  .base-timeline__item {
+    position: relative;
+  }
+  
+  .base-timeline__item::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '✔';
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(79, 175, 84);
+    color: white;
+    font-weight: bold;
+    transition: all 0.6s ease-in-out;
+    box-sizing: border-box;
+  }
+  
+  .base-timeline__item--data::before {
+    content: attr(data-year);
+    width: 60px;
+    height: 60px;
+  }
+  
+
+  
+  .base-timeline__summary-text {
+    position: absolute;
+    bottom: -2em;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  .base-timeline__summary-text1 {
+    position: absolute;
+    bottom: -4em;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(133,130,141);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  span::first-letter {
+    text-transform: capitalize;
+  }
+
+  .ipo-description{
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .ipo-description p{
+    color: rgb(133,130,141);
+    font-size: 0.8rem;
+  }
+
+  .section-gap{
+    margin-bottom: 40px;
+  }
+
+  .apply-btn{
+    background-color: rgb(20,20,60);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: large;
+  }
+
+  .back-btn{
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(133,130,141);
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+
+  .company-name{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .issue-date{
+    color: rgb(133,130,141);
+    font-size: 14px;
+  }
+
+  .ipo-heading{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  
+
+
+@media (max-width: 575.98px) { 
+
+    .download-apply{
+        display: none;
+    }
+    .back-btn{
+        display: none;
+    }
+
+    .ipo-details-container{
+        padding: 20px;
+    }
+
+    .flex-1{
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .base-timeline {
+       flex-direction: column;
+       gap: 20px;
+      }
+
+    .base-timeline::before {
+        content: '';
+        width: 2px; /* Make it a vertical line by setting the width to 2px */
+        height: 100%; /* Full height of the container */
+        border-left: 2px solid rgb(79, 175, 84); /* Use border-left for a vertical line */
+        display: inline-block;
+        position: absolute;
+        left: 5%; /* Center the line horizontally */
+        top: 0; /* Start from the top */
+        z-index: -1; /* Ensure it is behind other elements */
+      }
+
+      .ipo-heading-timeline{
+        height: unset;
+      }
+
+
+  .base-timeline__summary-text {
+    position: absolute;
+    top: 0.5em;
+    width: max-content;
+    left: 15%;
+    transform: unset;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  .base-timeline__summary-text1 {
+    position: absolute;
+    top: 2.2em;
+    width: max-content;
+    left: 15%;
+    transform: unset;
+    color: rgb(0, 0, 0);
+    color: rgb(133,130,141);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  
+
+}
+
+
+@media (max-width: 767.98px) { 
+
 }

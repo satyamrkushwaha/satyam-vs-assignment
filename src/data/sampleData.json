@@ -11,7 +11,7 @@
         "min_invest_rupees": "₹50000",
         "min_invest_quantity": "100 shares/5 lots",
         "details": {
-          "issue_range": "₹30000 - ₹5000",
+          "issue_range": "₹30000 - ₹5000 Cr.",
           "listed_on": "15th Dec 2022",
           "listed_price": "₹10",
           "listed_gains": "₹10",
@@ -29,7 +29,7 @@
         "min_invest_rupees": "₹60000",
         "min_invest_quantity": "50 shares/2 lots",
         "details": {
-          "issue_range": "₹20000 - ₹4000",
+          "issue_range": "₹20000 - ₹4000 Cr.",
           "listed_on": "20th Dec 2022",
           "listed_price": "₹15",
           "listed_gains": "₹20",
@@ -48,7 +48,7 @@
         "min_invest_quantity": "75 shares/3 lots",
         "details": {
           "issue_range": "₹15000 - ₹3500",
-          "listed_on": "10th Jan 2023",
+          "listed_on": "10th Jan 2023 Cr.",
           "listed_price": "₹12",
           "listed_gains": "₹8",
           "listed_gains_percentage": "15%"
@@ -66,7 +66,7 @@
         "min_invest_quantity": "60 shares/4 lots",
         "details": {
           "issue_range": "₹17000 - ₹3800",
-          "listed_on": "18th Jan 2023",
+          "listed_on": "18th Jan 2023 Cr.",
           "listed_price": "₹13",
           "listed_gains": "₹7",
           "listed_gains_percentage": "14%"
@@ -84,7 +84,7 @@
         "min_invest_quantity": "30 shares/1 lot",
         "details": {
           "issue_range": "₹22000 - ₹4500",
-          "listed_on": "25th Jan 2023",
+          "listed_on": "25th Jan 2023 Cr.",
           "listed_price": "₹18",
           "listed_gains": "₹22",
           "listed_gains_percentage": "20%"
@@ -101,7 +101,7 @@
         "min_invest_rupees": "₹65000",
         "min_invest_quantity": "40 shares/2 lots",
         "details": {
-          "issue_range": "₹16000 - ₹3400",
+          "issue_range": "₹16000 - ₹3400 Cr.",
           "listed_on": "5th Feb 2023",
           "listed_price": "₹14",
           "listed_gains": "₹16",
@@ -119,7 +119,7 @@
         "min_invest_rupees": "₹75000",
         "min_invest_quantity": "35 shares/1 lot",
         "details": {
-          "issue_range": "₹35000 - ₹6000",
+          "issue_range": "₹35000 - ₹6000 Cr.",
           "listed_on": "10th Mar 2023",
           "listed_price": "₹20",
           "listed_gains": "₹30",
@@ -137,7 +137,7 @@
         "min_invest_rupees": "₹80000",
         "min_invest_quantity": "25 shares/1 lot",
         "details": {
-          "issue_range": "₹28000 - ₹5500",
+          "issue_range": "₹28000 - ₹5500 Cr.",
           "listed_on": "15th Apr 2023",
           "listed_price": "₹25",
           "listed_gains": "₹35",
@@ -155,7 +155,7 @@
         "min_invest_rupees": "₹90000",
         "min_invest_quantity": "20 shares/1 lot",
         "details": {
-          "issue_range": "₹24000 - ₹4600",
+          "issue_range": "₹24000 - ₹4600 Cr.",
           "listed_on": "20th May 2023",
           "listed_price": "₹28",
           "listed_gains": "₹32",
@@ -173,7 +173,7 @@
         "min_invest_rupees": "₹85000",
         "min_invest_quantity": "30 shares/1 lot",
         "details": {
-          "issue_range": "₹26000 - ₹4800",
+          "issue_range": "₹26000 - ₹4800 Cr.",
           "listed_on": "25th Jun 2023",
           "listed_price": "₹30",
           "listed_gains": "₹40",
