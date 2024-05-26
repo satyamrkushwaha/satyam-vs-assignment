@@ -82,21 +82,21 @@ export default function IpoDetails() {
                 <h5 className='ipo-heading'>IPO timeline</h5>
                 <div className='ipo-timeline'>
                     <ul class="base-timeline">
-                        <li class="base-timeline__item">
-                            <span class="base-timeline__summary-text">Binding starts</span>
-                            <span class="base-timeline__summary-text1">12 Dec 2023</span>
+                        <li class="base-timeline-item">
+                            <span class="base-timeline-summary-text">Binding starts</span>
+                            <span class="base-timeline-summary-text1">12 Dec 2023</span>
                         </li>
-                        <li class="base-timeline__item base-timeline__item--active">
-                            <span class="base-timeline__summary-text">Binding ends</span>
-                            <span class="base-timeline__summary-text1">12 Dec 2023</span>
+                        <li class="base-timeline-item">
+                            <span class="base-timeline-summary-text">Binding ends</span>
+                            <span class="base-timeline-summary-text1">12 Dec 2023</span>
                         </li>
-                        <li class="base-timeline__item">
-                            <span class="base-timeline__summary-text">Allotment finalization</span>
-                            <span class="base-timeline__summary-text1">12 Dec 2023</span>
+                        <li class="base-timeline-item">
+                            <span class="base-timeline-summary-text">Allotment finalization</span>
+                            <span class="base-timeline-summary-text1">12 Dec 2023</span>
                         </li>
-                        <li class="base-timeline__item">
-                            <span class="base-timeline__summary-text">Refund Initiation</span>
-                            <span class="base-timeline__summary-text1">12 Dec 2023</span>
+                        <li class="base-timeline-item">
+                            <span class="base-timeline-summary-text">Refund Initiation</span>
+                            <span class="base-timeline-summary-text1">12 Dec 2023</span>
                         </li>
                     </ul>
                 </div>

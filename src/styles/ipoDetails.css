@@ -75,11 +75,11 @@
     z-index: -1;
   }
   
-  .base-timeline__item {
+  .base-timeline-item {
     position: relative;
   }
   
-  .base-timeline__item::before {
+  .base-timeline-item::before {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@
     box-sizing: border-box;
   }
   
-  .base-timeline__item--data::before {
+  .base-timeline-item-data::before {
     content: attr(data-year);
     width: 60px;
     height: 60px;
@@ -102,7 +102,7 @@
   
 
   
-  .base-timeline__summary-text {
+  .base-timeline-summary-text {
     position: absolute;
     bottom: -2em;
     width: max-content;
@@ -111,7 +111,7 @@
     color: rgb(0, 0, 0);
     font-weight: 600;
   }
-  .base-timeline__summary-text1 {
+  .base-timeline-summary-text1 {
     position: absolute;
     bottom: -4em;
     width: max-content;
@@ -222,14 +222,14 @@
 
     .base-timeline::before {
         content: '';
-        width: 2px; /* Make it a vertical line by setting the width to 2px */
-        height: 100%; /* Full height of the container */
-        border-left: 2px solid rgb(79, 175, 84); /* Use border-left for a vertical line */
+        width: 2px;
+        height: 100%;
+        border-left: 2px solid rgb(79, 175, 84);
         display: inline-block;
         position: absolute;
-        left: 5%; /* Center the line horizontally */
-        top: 0; /* Start from the top */
-        z-index: -1; /* Ensure it is behind other elements */
+        left: 5%;
+        top: 0;
+        z-index: -1;
       }
 
       .ipo-heading-timeline{
@@ -237,7 +237,7 @@
       }
 
 
-  .base-timeline__summary-text {
+  .base-timeline-summary-text {
     position: absolute;
     top: 0.5em;
     width: max-content;
@@ -246,7 +246,7 @@
     color: rgb(0, 0, 0);
     font-weight: 600;
   }
-  .base-timeline__summary-text1 {
+  .base-timeline-summary-text1 {
     position: absolute;
     top: 2.2em;
     width: max-content;
