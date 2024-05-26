@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SampleData from './data/sampleData.json';
+import './styles/ipoList.css';
 
 export default function IpoList() {
     const { companies } = SampleData;
@@ -11,23 +12,29 @@ export default function IpoList() {
                 <table>
                     <thead>
                         <tr>
-                            <th>Company name</th>
-                            <th>Issue Size</th>
-                            <th>Price Range</th>
-                            <th>Min. invest</th>
+                            <th>Company / Issue date</th>
+                            <th className='text-center'>Issue size</th>
+                            <th className='text-center'>Price range</th>
+                            <th className='text-center'>Min.invest / qty</th>
                         </tr>
                     </thead>
                     <tbody>
                         {companies.map(company => (
                             <tr key={company.id}>
-                                <td>
-                                    <Link to={`/ipo-details/${company.path}`}>
-                                        {company.name}
-                                    </Link>
+                                <td className='company-details'>
+                                    <img src={company.logo} alt={company.name} />
+                                    <div>
+                                        <Link to={`/ipo-details/${company.path}`}>
+                                            {company.name}
+                                        </Link>
+                                        <span>{company.issue_date}</span>
+                                    </div>
                                 </td>
-                                <td>{company.issue_size}</td>
-                                <td>{company.price_range}</td>
-                                <td>{company.min_invest_rupees}</td>
+                                <td className='text-center'>{company.issue_size}</td>
+                                <td className='text-center'>{company.price_range}</td>
+                                <td className='text-center'>{company.min_invest_rupees}
+                                    <span>{company.min_invest_quantity}</span>
+                                </td>
                             </tr>
                         ))}
                     </tbody>

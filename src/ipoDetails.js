@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import SampleData from './data/sampleData.json';
+import './styles/ipoDetails.css';
 
 export default function IpoDetails() {
     const { id } = useParams();
@@ -14,12 +15,12 @@ export default function IpoDetails() {
     }
 
     return (
-        <div>
+        <div className='ipo-details-container'>
             <nav>
                 <Link to="/">Home</Link> {'>'}<span className="current-page">Market Watch</span>
             </nav>
             <h2>{company.name} Details</h2>
-            {/* <img src={company.logo} alt={company.name} /> */}
+            <img src={company.logo} alt={company.name} />
             <div>Issue Date: {company.issue_date}</div>
             <div>Issue Size: {company.issue_size}</div>
             <div>Price Range: {company.price_range}</div>

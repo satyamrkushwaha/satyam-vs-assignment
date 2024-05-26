@@ -1,0 +1,63 @@
+.ipo-list-container {}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    table-layout: fixed;
+
+}
+tr{
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+tr:hover{
+    background-color: rgb(245, 245, 245, 0.5);
+}
+
+th, td{
+    padding: 20px;
+}
+th{
+    width: 33.33%;
+}
+
+td{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+td span{
+    display: block;
+    font-size: 0.8rem;
+    color: rgb(133,130,141);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+thead {
+
+    background-color: rgb(245, 245, 245);
+    color: rgb(133,130,141);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.company-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+
+    object-fit: contain;
+}
