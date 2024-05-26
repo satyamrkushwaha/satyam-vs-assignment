@@ -14,7 +14,7 @@ tr{
     border-top: none;
 }
 tr:hover{
-    background-color: rgbrgb(0, 0, 0, 0.1);
+    background-color: rgb(0, 0, 0, 0.03);
 }
 
 th, td{
@@ -41,10 +41,11 @@ a{
 
 thead {
 
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(0, 0, 0, 0.08);
     color: rgb(133,130,141);
     font-size: 1rem;
     font-weight: 400;
+    pointer-events: none;
 
 }
 
